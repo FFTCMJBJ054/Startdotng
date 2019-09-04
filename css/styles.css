@@ -1,0 +1,263 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.name-ruler {
+    border-style: none;
+    border: 1px solid grey;
+    width: 10%;
+}
+
+p,
+li,
+a {
+    color: rgba(80, 80, 80);
+    font-size: 1.05rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.here>a {
+    font-style: oblique;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.here>a:hover {
+    color: black;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.categories-heading {
+    text-align: center;
+}
+
+#top-section-wrapper {
+    text-align: center;
+
+}
+
+#top-section {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    width: 40%;
+    padding: 20px 50px;
+}
+
+.my-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+}
+
+#big-wrapper {
+    background: linear-gradient(to right, rgb(230, 230, 230) 40%, rgb(255, 255, 255) 40%);
+    background-repeat: no-repeat;
+}
+
+.main-row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-half {
+    position: relative;
+    width: 100%;
+    margin-left: 1%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.first-half-heading {
+    border-style: none;
+    border: 1px solid grey;
+    width: 80%;
+}
+
+.details {
+    margin-bottom: 50px;
+}
+
+.personal-title {
+    color: rgba(70, 70, 70);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*education*/
+
+.school {
+    font-style: oblique;
+}
+
+.date {
+    font-style: italic;
+}
+
+
+/*skills*/
+.stars {
+    padding-left: 10px;
+}
+
+.second-half {
+    position: relative;
+    width: 100%;
+    margin-left: 2%;
+    -ms-flex: 0 0 57%;
+    flex: 0 0 57%;
+    max-width: 57%;
+
+}
+
+#contact-wrapper {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact-row {
+    display: -ms-flexbox;
+    display: flex;
+    border: 2px solid transparent;
+    padding-bottom: 20px;
+    border-radius: 1em;
+    margin: 0, 0.8em, 1em, 0.8em;
+}
+
+#get-in-touch {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#get-in-touch>hr {
+    border: 1px solid gray;
+    width: 50%;
+}
+
+#get-in-touch>p {
+    font-size: 1.2rem;
+}
+
+.contact-img {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.contact-logo {
+    display: inline-block;
+    width: 0.8%;
+    height: 0.8%;
+}
+
+.msg-head {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.contact-form-div {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+#contactform input#name,
+#contactform input#email,
+#contactform input#title,
+#contactform textarea#comments {
+    width: 90%;
+    padding: 2% 1.5%;
+    margin-top: 3.5%;
+    margin-bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #202020;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#contactform textarea#comments {
+    min-height: 150px;
+    resize: none;
+
+}
+
+input[placeholder] {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+}
+
+textarea[placeholder] {
+    font-family: 'Century Gothic',
+        sans-serif;
+    font-size: 18px;
+
+}
+
+.contact-btn {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5%;
+    margin-left: 35%;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #343a40;
+    border-color: #343a40;
+}
+
+button:hover {
+    outline: 1px auto;
+    background-color: gray;
+    border-radius: 0.3rem;
+}
+
+.error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(230, 230, 230);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer>a {
+    text-decoration: none;
+    margin: 1% 2%;
+}
